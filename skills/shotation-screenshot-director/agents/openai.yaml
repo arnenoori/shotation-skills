@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shotation Screenshot Director"
+  short_description: "Plan and compose high-converting app screenshots"
+  default_prompt: "Use Shotation to plan, capture, compose, and export a polished app-store screenshot set."
