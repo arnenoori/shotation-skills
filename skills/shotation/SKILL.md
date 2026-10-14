@@ -24,6 +24,8 @@ Use multiple formats when needed:
 shotation app-store --base-url http://localhost:3000 --format iphone --format ipad-13-portrait --open
 ```
 
+For iPhone Duo, add `--format duo` (or `--target duo` on `compose export`). It produces the outer display set (`1398x2034`) and the inner display set (`2007x2853`). Apple requires both from April 2027 for apps built with the iOS 27.1 SDK or later. Capture each display separately, closed and open; never scale one display's captures into the other.
+
 This command auto-discovers candidate routes, captures one source size per requested output format, exports screenshots under `by-size/<width>x<height>/<format-id>/`, and records quality status in `app-store-export.json`.
 
 For broader UI QA, use:
