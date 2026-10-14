@@ -60,6 +60,8 @@ shotation app-store --base-url http://localhost:3000 --format iphone --format ip
 shotation compose export --run latest --target apple --target google --target marketing
 ```
 
+For an app built with the iOS 27.1 SDK or later, the set must include iPhone Duo from April 2027: `--format duo` / `--target duo` for the outer (`1398x2034`) and inner (`2007x2853`) displays. Treat the two displays as separate briefs. The outer display is wider and shorter than other iPhones, and the system moves bars to its side. The inner display is large enough for a second level of hierarchy, like a split view. Check that each set comes from captures of its own display.
+
 ## Quality Bar
 
 Do not accept a screenshot set only because files exist. Verify:
